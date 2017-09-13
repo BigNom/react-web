@@ -2,13 +2,14 @@ node_modules
 dist/
 update/
 
+.vscode
 .tmp
 app.yaml
 data/
 ss/
 docs/
 img/
-database.rules.json
-firebase-messaging-sw.json
-firebase.json
-.firebaserc
+src/database.rules.json
+src/firebase-messaging-sw.json
+src/firebase.json
+src/.firebaserc

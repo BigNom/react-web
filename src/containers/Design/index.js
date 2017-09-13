@@ -3,7 +3,6 @@ import React from 'react'
 const Design = () => (
   <div>
     <h1>Design</h1>
-      <h1>Home</h1>
       <p>Looking for ways to enhance your web page? or make your app a more happening one? We have
       just the solution for you. You don’t need to fret about it. We try to create an impact with words,
       applications and features that enhance the power of your website and makes it from ordinary to extra ordinary.
