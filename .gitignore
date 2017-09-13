@@ -1,0 +1,14 @@
+node_modules
+dist/
+update/
+
+.tmp
+app.yaml
+data/
+ss/
+docs/
+img/
+database.rules.json
+firebase-messaging-sw.json
+firebase.json
+.firebaserc
