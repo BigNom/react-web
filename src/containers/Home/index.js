@@ -15,15 +15,12 @@ const Home = () => (
         <p>
           Progressive Web Applications
         </p>
-        <p>
-          <a className="btn btn-primary btn-lg">Learn more</a>
-        </p>
       </div>
       <Row>
         <Col xs={6} md={4}>
           <Thumbnail src="../assets/bannerLarge.jpg" alt="242x200">
             <h3>Progressive Web Apps</h3>
-            <p>Description</p>
+            <p>Provides offline access to users</p>
             <p>
               <Button bsStyle="primary">Button</Button>&nbsp;
               <Button bsStyle="default">Button</Button>
