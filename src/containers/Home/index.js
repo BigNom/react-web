@@ -4,11 +4,11 @@ import Banner from '../../assets/bannerLarge.jpg'
 import './home.css'
 
 const homeStyles = {
-  backgroundImage: {Banner}
+  backgroundImage: "url(../../assets/bannerLarge.jpg)"
 }
 
 const Home = () => (
-  <div className="navbar">
+  <div className="background">
     <div className="container background" style={homeStyles}>
       <div className="jumbotron">
         <h1>React Web</h1>
@@ -18,23 +18,18 @@ const Home = () => (
       </div>
       <Row>
         <Col xs={6} md={4}>
-          <Thumbnail src="../assets/bannerLarge.jpg" alt="242x200">
+          <Thumbnail src={Banner} alt="242x200">
             <h3>Progressive Web Apps</h3>
             <p>Provides offline access to users</p>
-            <p>
-              <Button bsStyle="primary">Button</Button>&nbsp;
-              <Button bsStyle="default">Button</Button>
-            </p>
+            <p>Fast, Responds quickly</p>
+
           </Thumbnail>
         </Col>
         <Col xs={6} md={4}>
           <Thumbnail src="../assets/bannerLarge.jpg" alt="242x200">
             <h3>Thumbnail label</h3>
             <p>Description</p>
-            <p>
-              <Button bsStyle="primary">Button</Button>&nbsp;
-              <Button bsStyle="default">Button</Button>
-            </p>
+
           </Thumbnail>
         </Col>
         <Col xs={6} md={4}>
@@ -42,10 +37,7 @@ const Home = () => (
             <h3>Thumbnail label</h3>
             <p>Description</p>
             <img src="../assets/bannerLarge.jpg" />
-            <p>
-              <Button bsStyle="primary">Button</Button>&nbsp;
-              <Button bsStyle="default">Button</Button>
-            </p>
+
           </Thumbnail>
         </Col>
       </Row>
