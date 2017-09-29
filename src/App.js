@@ -14,15 +14,16 @@ class App extends Component {
           <div>
             <Navigation />
             <div className="container">
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/develop" component={Develop} />
-                <Route path="/design" component={Design} />
-                <Route render={function() {
-                    return <p>Not Found</p>;
-                  }} />
-              </Switch>
+                        <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/develop" component={Develop} />
+              <Route path="/design" component={Design} />
+              <Route render={function() {
+                  return <p>Not Found</p>;
+                }} />
+            </Switch>
             </div>
+
           </div>
         </Router>;
       </div>;
