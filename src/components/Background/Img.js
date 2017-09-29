@@ -28,7 +28,6 @@ background-repeat: no-repeat;
 z-index: -1;
   ${media.desktop`background-image: url(${bannerLarge});`}
   ${media.phone`background-image: url(${bannerMobile});`}
-
 `;
 
 

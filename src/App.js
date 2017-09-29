@@ -13,7 +13,6 @@ class App extends Component {
         <Router>
           <div>
             <Navigation />
-            <div className="container">
                         <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/develop" component={Develop} />
@@ -23,8 +22,6 @@ class App extends Component {
                 }} />
             </Switch>
             </div>
-
-          </div>
         </Router>;
       </div>;
   }

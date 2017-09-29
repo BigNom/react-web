@@ -9,7 +9,8 @@ data/
 ss/
 docs/
 img/
-src/database.rules.json
-src/firebase-messaging-sw.json
-src/firebase.json
-src/.firebaserc
+database.rules.json
+firebase-messaging-sw.json
+firebase.json
+.firebaserc
+

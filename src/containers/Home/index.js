@@ -2,12 +2,13 @@ import React from 'react'
 import { Grid, Row, Col, Button, Thumbnail } from 'react-bootstrap'
 import Banner from '../../assets/bannerLarge.jpg'
 import './home.css'
+import Background from '../../components/Background'
 
-const banner = "http://res.cloudinary.com/react-web/image/upload/w_240,c_scale,f_auto/v1505450903/react-web/banner_y3la5h.jpg";
+const banner = "https://res.cloudinary.com/react-web/image/upload/w_240,c_scale,f_auto/v1505450903/react-web/banner_y3la5h.jpg";
 
 const Home = () => (
-  <div>
-    <div className="container background">
+  <div className="background">
+    <div className="container">
       <div className="jumbotron">
         <h1>React Web</h1>
         <p>

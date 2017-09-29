@@ -21,7 +21,6 @@ class ContactForm extends React.Component {
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
-
     e.preventDefault();
   };
 
