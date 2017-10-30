@@ -1,4 +1,5 @@
 import React from 'react'
+import Bot from '../../components/Bot'
 
 const Design = () => (
   <div>
@@ -9,6 +10,9 @@ const Design = () => (
       Many a times you do not require any complex feature to make waves, doing simpler things in an efficient and
       effective way can boost your business in the most perfect way possible. Our services include the following features.
       We are also open to ideas and we would like you to take a look at our services for your convenience.</p>
+      <div>
+      <Bot />
+      </div>
   </div>
 )
 

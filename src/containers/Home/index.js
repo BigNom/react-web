@@ -3,6 +3,7 @@ import { Grid, Row, Col, Button, Thumbnail } from 'react-bootstrap'
 import Banner from '../../assets/bannerLarge.jpg'
 import './home.css'
 import Background from '../../components/Background'
+import PWA from '../../assets/pwa.png'
 
 const banner = "https://res.cloudinary.com/react-web/image/upload/w_240,c_scale,f_auto/v1505450903/react-web/banner_y3la5h.jpg";
 
@@ -32,7 +33,7 @@ const Home = () => (
           </Thumbnail>
         </Col>
         <Col xs={6} md={4}>
-          <Thumbnail src="../assets/bannerLarge.jpg" alt="242x200">
+          <Thumbnail src={PWA} alt="242x200">
             <h3>Thumbnail label</h3>
             <p>Description</p>
             <img src="../assets/bannerLarge.jpg" />

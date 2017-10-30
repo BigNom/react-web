@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
 
-
 const mainColor = 'indianred'
 
 const Title = styled.h1`
