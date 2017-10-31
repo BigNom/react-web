@@ -14,6 +14,5 @@ export default () => (
     <Route path="/design" exact component={Design} />
     <Route path="/develop" exact component={Develop} />
     <Route path="/start" exact component={Start} />
-
   </Switch>
 );

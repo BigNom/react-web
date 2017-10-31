@@ -6,7 +6,7 @@ import { Grid } from "react-bootstrap";
 import Home from './containers/Home'
 import Develop from './containers/Develop'
 import Design from './containers/Design'
-import Start from './containers/Start'
+
 
 class App extends Component {
   render() {
@@ -18,7 +18,6 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/develop" component={Develop} />
               <Route path="/design" component={Design} />
-              <Route path="/start" exact component={Start} />
               <Route render={function() {
                   return <p>Not Found</p>;
                 }} />
