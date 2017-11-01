@@ -17,12 +17,8 @@ class Home extends Component {
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
-                  <div className="screen">
 
-                  <iframe width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/2fe3a79f-daa0-407a-abf0-9eefaf315ec5"></iframe>
-                  </div>
                   <div className="button">
-
                   </div>
                 </div>
               </div>
@@ -31,7 +27,6 @@ class Home extends Component {
         </div>
       </div>
     </header>
-
     <section className="download bg-primary text-center" id="download">
       <div className="container">
         <div className="row">
@@ -46,7 +41,6 @@ class Home extends Component {
         </div>
       </div>
     </section>
-
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
@@ -76,7 +70,6 @@ class Home extends Component {
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
                     <h3>Device Mockups</h3>
-
                     <p className="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                   </div>
                 </div>
@@ -109,7 +102,6 @@ class Home extends Component {
         </div>
       </div>
     </section>
-
     <section className="cta">
       <div className="cta-content">
         <div className="container">
@@ -161,7 +153,6 @@ class Home extends Component {
         </ul>
       </div>
     </footer>
-
       </div>
     );
   }
