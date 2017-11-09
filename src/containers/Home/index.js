@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import googleLogo from '../../assets/google-play-badge.svg'
+import appleBadge from '../../assets/app-store-badge.svg'
 import iphonePlus from '../../assets/iphone_6_plus_white_port.png'
 import demoImage from '../../assets/demo-screen-1.jpg'
+import styled from 'styled-components'
+
+const Wuzzat = styled.div`
+background-image: url(${iphonePlus});
+`;
 
 class Home extends Component {
   render() {
@@ -20,7 +26,9 @@ class Home extends Component {
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
-                  <img src={iphonePlus} />
+                  <div className="screen">
+                <img src={demoImage} className="img-fluid" alt=""/>
+                </div>
                   <div className="button">
                   </div>
                 </div>
@@ -37,7 +45,7 @@ class Home extends Component {
             <h2 className="section-heading">Discover what all the buzz is about!</h2>
             <p>Our apps is available on any mobile device! Download now to get started!</p>
             <div className="badges">
-              <a className="badge-link" href="#"><img src="../assets/google-play-badge.svg" alt=""/></a>
+              <a className="badge-link" href="#"><img src={appleBadge} alt=""/></a>
               <a className="badge-link" href="#"><img src={googleLogo} alt=""/></a>
             </div>
           </div>
@@ -55,17 +63,15 @@ class Home extends Component {
           <div className="col-lg-4 my-auto">
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white">
-              <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
+              <Wuzzat>
+                <div className="screen">
                  
-                  <img src={demoImage} class="img-fluid" alt=""/>
+                  <img src={demoImage} className="img-fluid" alt=""/>
                 </div>
-                <div class="button">
+                <div className="button">
 
                 </div>
-              </div>
-            </div>
+            </Wuzzat>
               </div>
             </div>
           </div>
