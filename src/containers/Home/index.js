@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import googleLogo from '../../assets/google-play-badge.svg'
+import iphonePlus from '../../assets/iphone_6_plus_white_port.png'
+import demoImage from '../../assets/demo-screen-1.jpg'
 
 class Home extends Component {
   render() {
@@ -18,7 +20,7 @@ class Home extends Component {
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
-
+                  <img src={iphonePlus} />
                   <div className="button">
                   </div>
                 </div>
@@ -53,14 +55,17 @@ class Home extends Component {
           <div className="col-lg-4 my-auto">
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white">
-                <div className="device">
-                  <div className="screen">
-
-                    <img src="assets/demo-screen-1.jpg" className="img-fluid" alt=""/>
-                  </div>
-                  <div className="button">
-                  </div>
+              <div class="device-mockup iphone6_plus portrait white">
+              <div class="device">
+                <div class="screen">
+                 
+                  <img src={demoImage} class="img-fluid" alt=""/>
                 </div>
+                <div class="button">
+
+                </div>
+              </div>
+            </div>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-snapshot'
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router} from 'react-router-dom'
 //import './index.css'
 import './assets/vendor/bootstrap/css/bootstrap.css'
@@ -13,7 +13,7 @@ import './assets/vendor/simple-line-icons/css/simple-line-icons.css'
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-render(
+ReactDOM.render(
   <Router>
     <App />
   </Router>,
