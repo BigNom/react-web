@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import googleLogo from '../../assets/google-play-badge.svg'
 
 class Home extends Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends Component {
         <div className="row h-100">
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
-              <h1 className="mb-5">We are in the midst of a paradigm shift, Messaging is the new platform and bots are the new apps.</h1>
+              <h1 className="mb-5">We're in the midst of a paradigm shift, Messaging is the new platform and bots are the new apps.</h1>
               <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start now</a>
             </div>
           </div>
@@ -32,10 +33,10 @@ class Home extends Component {
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">Discover what all the buzz is about!</h2>
-            <p>Our app is available on any mobile device! Download now to get started!</p>
+            <p>Our apps is available on any mobile device! Download now to get started!</p>
             <div className="badges">
               <a className="badge-link" href="#"><img src="../assets/google-play-badge.svg" alt=""/></a>
-              <a className="badge-link" href="#"><img src="../assets/app-store-badge.svg" alt=""/></a>
+              <a className="badge-link" href="#"><img src={googleLogo} alt=""/></a>
             </div>
           </div>
         </div>
