@@ -8,9 +8,11 @@
   "homepage": "https://reactweb.com.au",
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
-    "start": "react-scripts start",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -19,6 +21,7 @@
     "babel-core": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",

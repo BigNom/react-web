@@ -3,5 +3,5 @@ Dockerfile
 .gitignore
 README.md
 
-buiul
+build
 node_modules
