@@ -65,7 +65,7 @@ class Home extends Component {
               <div className="device-mockup iphone6_plus portrait white">
               <Wuzzat>
                 <div className="screen">
-                 
+
                   <img src={demoImage} className="img-fluid" alt=""/>
                 </div>
                 <div className="button">
