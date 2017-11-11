@@ -81,15 +81,15 @@ class Home extends Component {
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
-                    <p className="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                    <h3>Machine Learning</h3>
+                    <p className="text-muted">We build our bots to understand a user's intention as natural language</p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
-                    <p className="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                    <h3>Google Assistant</h3>
+                    <p className="text-muted">Build an app to integrate into your own home</p>
                   </div>
                 </div>
               </div>
@@ -97,8 +97,8 @@ class Home extends Component {
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p className="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                    <h3>Training</h3>
+                    <p className="text-muted">To stay up with the latest information, we can train your bot so errors don' occur</p>
                   </div>
                 </div>
                 <div className="col-lg-6">

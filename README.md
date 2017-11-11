@@ -4,3 +4,6 @@
 
 run 
 node -v > .nvmrc
+
+### One way to check to see if your site is well-configured is to examine the HTTP response headers
+`curl -s -v http://your-newly-configured-hostname.com 2>&1 |grep Server`
