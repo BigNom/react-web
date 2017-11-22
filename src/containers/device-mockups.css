@@ -50,8 +50,9 @@
 	padding-bottom: 49.56%;
 }
 
-.device {
-	background-image: url("./iphone_6_plus_white_port.png");
+.device-mockup.iphone6_plus.white > .device,
+.device-mockup.iphone6_plus.portrait.white > .device {
+	background-image: url("../assets/iphone_6_plus_white_port.png");
 }
 
 .device-mockup.iphone6_plus > .device > .screen,

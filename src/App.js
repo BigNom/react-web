@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavStrap from './components/Navigation/NavStrap'
+import StartNav from './components/Navigation/StartNav'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from './containers/Home'
@@ -12,7 +12,7 @@ class App extends Component {
     return <div>
         <Router>
           <div>
-            <NavStrap />
+            <StartNav />
               <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/develop" component={Develop} />
