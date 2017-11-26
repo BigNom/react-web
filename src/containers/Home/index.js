@@ -4,6 +4,7 @@ import appleBadge from '../../assets/app-store-badge.svg'
 import iphonePlus from '../../assets/iphone_6_plus_white_port.png'
 import demoImage from '../../assets/demo-screen-1.jpg'
 import '../device-mockups.css'
+import Bot from '../../components/Bot'
 
 const deviceStyles = {
   backgroundImage: "./iphone_6.png",
@@ -34,13 +35,9 @@ class Home extends Component {
           <div className="col-lg-5 my-5">
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white my-5">
-                <div className="device" style={deviceStyles}>
-                  <div className="screen">
-                <img src={demoImage} className="img-fluid" alt=""/>
-                </div>
-                  <div className="button">
-                  </div>
-                </div>
+
+                  <Bot />
+
               </div>
             </div>
           </div>
@@ -64,26 +61,11 @@ class Home extends Component {
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
+          <h2>Unlimited Possibilities</h2>
           <p className="text-muted">Check out what you can do with this app theme!</p>
           <hr/>
         </div>
         <div className="row">
-          <div className="col-lg-4 my-auto">
-            <div className="device-container">
-              <div className="device-mockup iphone6_plus portrait white">
-              <div>
-                <div className="screen">
-
-                  <img src={demoImage} className="img-fluid" alt=""/>
-                </div>
-                <div className="button">
-
-                </div>
-            </div>
-              </div>
-            </div>
-          </div>
           <div className="col-lg-8 my-auto">
             <div className="container-fluid">
               <div className="row">
@@ -133,7 +115,6 @@ class Home extends Component {
       </div>
       <div className="overlay"></div>
     </section>
-
     <section className="contact bg-primary" id="contact">
       <div className="container">
         <h2>We
@@ -158,23 +139,6 @@ class Home extends Component {
         </ul>
       </div>
     </section>
-
-    <footer>
-      <div className="container">
-        <p>&copy; 2017 React Web. All Rights Reserved.</p>
-        <ul className="list-inline">
-          <li className="list-inline-item">
-            <a href="#">Privacy</a>
-          </li>
-          <li className="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li className="list-inline-item">
-            <a href="#">FAQ</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
       </div>
     );
   }
