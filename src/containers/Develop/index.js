@@ -2,7 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet'
 import CardsList from '../../components/Cards/CardsList'
 import Background from '../../components/Background'
-import machineLearning from '../../assets/machine-learning.png'
 import MediaPlayer from '../../components/MediaPlayer'
 
 import './Develop.css'
