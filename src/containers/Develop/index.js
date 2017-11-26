@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Helmet from 'react-helmet'
 import CardsList from '../../components/Cards/CardsList'
 import Background from '../../components/Background'
 import machineLearning from '../../assets/machine-learning.png'
@@ -16,7 +16,12 @@ const cards = [
 class Develop extends React.Component {
   render() {
     return (
-      <div className="develop-styles container-fluid my-5">
+      <article>
+      <Helmet>
+      <title>Home Page</title>
+      <meta name="description" content="A React.js Boilerplate application homepage" />
+    </Helmet>
+      <div className="contact-styles container-fluid">
       <div className="row h-100 my-5">
       <div className="col-12">
       <h1>Develop</h1>
@@ -24,6 +29,7 @@ class Develop extends React.Component {
       </div>
       <CardsList cards={cards}/>
     </div>
+      </article>
     );
   }
 }
