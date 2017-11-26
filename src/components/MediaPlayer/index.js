@@ -1,5 +1,5 @@
 import React from 'react'
-import homeScreen from '../../assets/homescreen.mp4'
+//import homeScreen from '../../assets/homescreen.mp4'
 
 class MediaPlayer extends React.Component {
   render() {
