@@ -2,7 +2,6 @@ import React from 'react';
 import Helmet from 'react-helmet'
 import CardsList from '../../components/Cards/CardsList'
 import Background from '../../components/Background'
-import MediaPlayer from '../../components/MediaPlayer'
 
 import './Develop.css'
 
@@ -20,7 +19,7 @@ class Develop extends React.Component {
       <title>Home Page</title>
       <meta name="description" content="A React.js Boilerplate application homepage" />
     </Helmet>
-      <div className="contact-styles container-fluid">
+      <div className="contact-styles container-fluid h-100">
       <div className="row h-100 my-5">
       <div className="col-12">
       <h1>Develop</h1>

@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactForm from '../../components/Form/ContactForm'
-import MastHead from '../../components/MastHead'
 import Hero from '../../components/Hero'
 import './Contact.css'
 import ReactStrapForm from '../../components/Form/ReactStrapForm'

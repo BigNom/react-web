@@ -25,7 +25,7 @@ class Home extends Component {
       <article>
       <Helmet>
       <title>Home Page</title>
-      <meta name="description" content="A React.js Boilerplate application homepage" />
+      <meta name="description" content="React Web builds Conversational Interfaces" />
     </Helmet>
     <header className="masthead">
       <div className="container h-100">
